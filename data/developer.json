@@ -1,69 +1,77 @@
 {
   "personal": {
-    "name": "Muhammad Kamal",
-    "title": "Senior Software Engineer (Backend / Full Stack)",
+    "name": "Muhammad Kamal khan",
+    "brandName": "oykamal",
+    "title": "Software Engineer - Python | Backend • Django • Flask • FastAPI",
     "contact": {
       "email": "oyekamalkhan@gmail.com",
-      "phone": "03360506129",
-      "linkedin": "https://www.linkedin.com/in/oykamal/",
-      "github": "https://github.com/oykamal",
+      "phone": "+92 336 0506129",
       "location": "Islamabad, Pakistan",
-      "website": "kamaldev.me"
-    }
+      "linkedin": "www.linkedin.com/in/oykamal/",
+      "github": "github.com/oykamal"
+    },
+    "bio": "Software Engineer with 4+ years of experience building production-grade backend systems in Python. Skilled in Django/DRF, Flask, FastAPI, PostgreSQL, event-driven architectures, Docker, CI/CD, and cloud deployment. Experienced in designing RESTful APIs, system performance optimization, async workflows with Celery/Kafka/RabbitMQ, and maintaining high availability in production environments.",
+    "image": "https://ui-avatars.com/api/?name=Muhammad+Kamal&size=200&background=111827&color=ffffff"
   },
+  "social": [
+    { "platform": "GitHub", "url": "https://github.com/oykamal", "icon": "github" },
+    { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/oykamal/", "icon": "linkedin" },
+    { "platform": "Instagram", "url": "https://instagram.com/oykamal", "icon": "instagram" },
+    { "platform": "YouTube", "url": "https://youtube.com/@oykamal", "icon": "youtube" },
+    { "platform": "X (Twitter)", "url": "https://x.com/oykamal", "icon": "twitter" }
+  ],
   "summary": {
-    "introduction": "Highly skilled software engineer specializing in backend development with Django, Flask, REST APIs, and DevOps. Proven expertise in designing scalable systems and developing full-stack applications with React, Docker, Kafka, and AWS.",
+    "introduction": "Software Engineer with 4+ years of experience building production-grade backend systems in Python. Skilled in Django/DRF, Flask, FastAPI, PostgreSQL, event-driven architectures, Docker, CI/CD, and cloud deployment.",
     "body": [
-      "Experienced in developing RESTful APIs and microservices using Django and Flask frameworks.",
-      "Proficient in containerization with Docker and orchestration tools like Kubernetes.",
-      "Skilled in using message queues (RabbitMQ, Kafka) and caching systems (Redis).",
-      "Solid understanding of frontend technologies, including React and modern JavaScript.",
-      "Strong problem-solving skills, with a passion for system design, optimization, and team collaboration."
+      "Experienced in designing RESTful APIs and system performance optimization",
+      "Built async workflows with Celery, Kafka, and RabbitMQ",
+      "Maintained high availability in production environments with comprehensive observability"
     ]
   },
-  "skills": [
-    { "name": "Python", "category": "Languages", "relevance": ["backend", "fullstack"] },
-    { "name": "Django & Django REST Framework", "category": "Backend", "relevance": ["backend", "fullstack"] },
-    { "name": "Flask", "category": "Backend", "relevance": ["backend"] },
-    { "name": "React", "category": "Frontend", "relevance": ["frontend", "fullstack"] },
-    { "name": "Docker", "category": "DevOps", "relevance": ["devops", "backend", "fullstack"] },
-    { "name": "Kafka", "category": "Messaging", "relevance": ["backend", "devops"] },
-    { "name": "RabbitMQ", "category": "Messaging", "relevance": ["backend", "devops"] },
-    { "name": "Redis", "category": "Databases", "relevance": ["backend", "devops"] },
-    { "name": "PostgreSQL", "category": "Databases", "relevance": ["backend", "fullstack"] },
-    { "name": "MySQL", "category": "Databases", "relevance": ["backend"] },
-    { "name": "Elasticsearch", "category": "Databases", "relevance": ["backend", "search"] },
-    { "name": "AWS (EC2, S3)", "category": "Cloud", "relevance": ["backend", "devops"] },
-    { "name": "Git & GitHub", "category": "Version Control", "relevance": ["all"] },
-    { "name": "API Design & Integration", "category": "Architecture", "relevance": ["backend", "fullstack"] },
-    { "name": "CI/CD & Travis CI", "category": "DevOps", "relevance": ["devops"] }
-  ],
   "experience": [
     {
       "title": "Senior Software Engineer (Backend)",
-      "company": "Central Asian Cellular Forum",
-      "period": "Dec 2022 - Present",
+      "company": "Taleemabad",
+      "period": "Apr 2024 - Present",
       "location": "Islamabad, Pakistan",
       "description": [
-        "Designed and implemented REST APIs using Python, Flask, and MySQL, successfully deploying to production.",
-        "Refactored and optimized existing services, improving response time by 80% and reducing latency by 90%.",
-        "Implemented unit, integration, and performance tests to enhance overall system reliability."
+        "Owned multiple Python backend services with Django/DRF in production, including deployments, monitoring, and incident resolution",
+        "Designed and evolved REST APIs serving thousands of daily active users",
+        "Reduced critical API latency by 40% using PostgreSQL indexing, query optimization, and Redis caching strategies",
+        "Executed zero-downtime PostgreSQL migrations with millions of rows while maintaining data integrity",
+        "Built and maintained CI/CD pipelines using Git, Docker, and AWS",
+        "Implemented observability with Prometheus, Grafana, ELK Stack, and CloudWatch for early issue detection"
       ],
-      "technologies": ["Python", "Flask", "MySQL", "Docker", "AWS"],
-      "relevance": ["backend", "fullstack", "devops"]
+      "technologies": ["Python", "Django", "DRF", "PostgreSQL", "Redis", "Docker", "AWS", "Prometheus", "Grafana"],
+      "relevance": ["backend"]
+    },
+    {
+      "title": "Senior Software Engineer (Backend)",
+      "company": "Central Asian Cellular Forum",
+      "period": "Dec 2022 - Jan 2025",
+      "location": "Remote",
+      "description": [
+        "Designed and deployed backend APIs using Python, Flask, and MySQL",
+        "Optimized slow endpoints by 80–90% via query tuning and backend refactoring",
+        "Added unit and integration tests for maintainability",
+        "Worked with async workflows and event-driven systems using Celery, Kafka, and RabbitMQ"
+      ],
+      "technologies": ["Python", "Flask", "MySQL", "Celery", "Kafka", "RabbitMQ"],
+      "relevance": ["backend"]
     },
     {
       "title": "Software Engineer",
       "company": "Paymob",
       "period": "Jun 2022 - Dec 2022",
-      "location": "Remote (Egypt)",
+      "location": "Remote",
       "description": [
-        "Developed and maintained a payment gateway using Django Rest Framework, Docker, and PostgreSQL.",
-        "Integrated APIs with multiple payment providers and financial institutions, ensuring system reliability and security.",
-        "Collaborated closely with frontend teams to ensure a smooth, scalable user experience."
+        "Built high-availability payment gateway APIs with Django REST Framework",
+        "Integrated financial APIs ensuring reliability and secure transactions",
+        "Collaborated with frontend and DevOps teams using Docker and PostgreSQL",
+        "Supported CI/CD pipelines and automated testing"
       ],
-      "technologies": ["Django", "DRF", "PostgreSQL", "Docker", "AWS"],
-      "relevance": ["backend", "fullstack"]
+      "technologies": ["Python", "Django", "DRF", "PostgreSQL", "Docker"],
+      "relevance": ["backend"]
     },
     {
       "title": "Python Backend Developer",
@@ -71,12 +79,14 @@
       "period": "Apr 2021 - Jul 2022",
       "location": "Islamabad, Pakistan",
       "description": [
-        "Developed a defense project using Django REST, Docker, Elasticsearch, PostgreSQL, and Kafka.",
-        "Implemented backend architecture, including APIs, database design, and event-driven messaging.",
-        "Integrated real-time communication via Django Channels and Kafka for asynchronous workflows."
+        "Developed backend systems using Django REST Framework and PostgreSQL",
+        "Implemented real-time features with Django Channels and Kafka",
+        "Built event-driven workflows with Celery, Kafka, and RabbitMQ",
+        "Containerized services using Docker for consistent development and production environments",
+        "Implemented Elasticsearch search functionality for large datasets"
       ],
-      "technologies": ["Django", "Kafka", "Elasticsearch", "PostgreSQL", "Docker"],
-      "relevance": ["backend", "fullstack", "devops"]
+      "technologies": ["Python", "Django", "DRF", "PostgreSQL", "Kafka", "Celery", "RabbitMQ", "Docker", "Elasticsearch"],
+      "relevance": ["backend"]
     },
     {
       "title": "Python Backend Developer",
@@ -84,62 +94,91 @@
       "period": "Nov 2020 - May 2021",
       "location": "Islamabad, Pakistan",
       "description": [
-        "Developed and maintained web applications using Django REST Framework and MongoDB.",
-        "Built API endpoints for integrating backend systems and automated cronjobs for scheduled tasks.",
-        "Collaborated using Git, Visual Studio, and Docker for streamlined deployment workflows."
+        "Developed backend services using Django and Django REST Framework",
+        "Designed and optimized relational database schemas with PostgreSQL and SQL",
+        "Applied SOLID and DRY principles to maintainable backend codebases"
       ],
-      "technologies": ["Django", "MongoDB", "Docker", "Git"],
-      "relevance": ["backend", "fullstack"]
+      "technologies": ["Python", "Django", "DRF", "PostgreSQL"],
+      "relevance": ["backend"]
     }
+  ],
+  "skills": [
+    { "name": "Python", "category": "Backend", "relevance": ["backend", "fullstack"] },
+    { "name": "Django", "category": "Backend", "relevance": ["backend", "fullstack"] },
+    { "name": "Django REST Framework", "category": "Backend", "relevance": ["backend", "fullstack"] },
+    { "name": "Flask", "category": "Backend", "relevance": ["backend", "fullstack"] },
+    { "name": "FastAPI", "category": "Backend", "relevance": ["backend", "fullstack"] },
+    { "name": "PostgreSQL", "category": "Databases", "relevance": ["backend"] },
+    { "name": "Redis", "category": "Databases", "relevance": ["backend"] },
+    { "name": "Elasticsearch", "category": "Databases", "relevance": ["backend"] },
+    { "name": "MySQL", "category": "Databases", "relevance": ["backend"] },
+    { "name": "MongoDB", "category": "Databases", "relevance": ["backend"] },
+    { "name": "Celery", "category": "Async & Messaging", "relevance": ["backend"] },
+    { "name": "Kafka", "category": "Async & Messaging", "relevance": ["backend"] },
+    { "name": "RabbitMQ", "category": "Async & Messaging", "relevance": ["backend"] },
+    { "name": "AWS", "category": "Cloud & DevOps", "relevance": ["backend"] },
+    { "name": "Docker", "category": "Cloud & DevOps", "relevance": ["backend"] },
+    { "name": "Terraform", "category": "Cloud & DevOps", "relevance": ["backend"] },
+    { "name": "CI/CD", "category": "Cloud & DevOps", "relevance": ["backend"] },
+    { "name": "GitHub Actions", "category": "Cloud & DevOps", "relevance": ["backend"] },
+    { "name": "Prometheus", "category": "Observability", "relevance": ["backend"] },
+    { "name": "Grafana", "category": "Observability", "relevance": ["backend"] },
+    { "name": "ELK Stack", "category": "Observability", "relevance": ["backend"] },
+    { "name": "CloudWatch", "category": "Observability", "relevance": ["backend"] },
+    { "name": "System Design", "category": "Engineering Practices", "relevance": ["backend"] },
+    { "name": "RESTful API Design", "category": "Engineering Practices", "relevance": ["backend"] },
+    { "name": "Performance Optimization", "category": "Engineering Practices", "relevance": ["backend"] },
+    { "name": "Zero-Downtime Migrations", "category": "Engineering Practices", "relevance": ["backend"] },
+    { "name": "Production Ownership", "category": "Engineering Practices", "relevance": ["backend"] },
+    { "name": "Clean Architecture", "category": "Engineering Practices", "relevance": ["backend"] },
+    { "name": "SOLID Principles", "category": "Engineering Practices", "relevance": ["backend"] }
   ],
   "projects": [
     {
-      "title": "Painting Website",
-      "description": "Developed a Django-based website for artists to upload, manage, and display artwork collections.",
-      "technologies": ["Django", "PostgreSQL", "Bootstrap"],
-      "link": "https://github.com/oykamal/painting-site",
-      "relevance": ["fullstack", "backend"]
+      "title": "Synctoon",
+      "description": "AI-powered 2D animation tool converting text and audio into animated videos with lip-sync and dynamic expressions.",
+      "technologies": ["Python", "AI", "Character Animation", "Video Processing"],
+      "link": "https://github.com/Automate-Animation/synctoon",
+      "relevance": ["backend"]
     },
     {
-      "title": "2D Mouth Lipsyncing Tool",
-      "description": "Built an innovative web app that generates 2D mouth lipsync animations from audio scripts.",
-      "technologies": ["Python", "Flask", "JavaScript"],
-      "link": "https://github.com/oykamal/lipsync-tool",
-      "relevance": ["backend", "ai"]
+      "title": "ToonFrame Architect",
+      "description": "AI-Powered storyboard generator transforming scripts into animation storyboards using Google Gemini API.",
+      "technologies": ["React", "TypeScript", "Vite", "Google Gemini API", "jsPDF", "JSZip"],
+      "link": "https://github.com/oyekamal/toonframe-architect",
+      "relevance": ["frontend", "fullstack"]
+    },
+    {
+      "title": "Inkwell Apprentice",
+      "description": "AI drawing practice tool generating structured PDF exercises to improve inkpen skills.",
+      "technologies": ["TypeScript", "React", "Google Gemini API", "Node.js", "PDF Generation"],
+      "link": "https://github.com/oyekamal/inkwell-apprentice",
+      "relevance": ["frontend", "fullstack"]
     }
   ],
+  "youtube": {
+    "channels": [
+      {
+        "id": 1,
+        "handle": "@oykamal",
+        "name": "oykamal",
+        "description": "Daily blogs, tech insights, career advice, and personal vlogs about life as a software engineer.",
+        "url": "https://www.youtube.com/@oykamal",
+        "shortsUrl": "https://www.youtube.com/@oykamal/shorts",
+        "videosUrl": "https://www.youtube.com/@oykamal/videos",
+        "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nAd2n4RYvn7WkEw_BKP6bE1o0zRIoMHCAEEeGd_N-C4gM=s160-c-k-c0x00ffffff-no-rj",
+        "theme": "linear-gradient(135deg, #ff0000, #cc0000)",
+        "topics": ["Daily Vlogs", "Tech Insights", "Career Tips", "Lifestyle"]
+      }
+    ]
+  },
   "education": [
     {
-      "degree": "Bachelor’s Degree in Computer Science",
+      "degree": "Bachelor of Computer Science",
       "institution": "Iqra University",
-      "period": "2015 - 2019",
-      "details": "Graduated with a CGPA of 3.34, focused on software development and database systems."
+      "period": "2013 - 2019",
+      "details": "Focus on software engineering, backend systems, and databases"
     }
   ],
-  "blogs": [
-    {
-      "title": "Optimizing Django for High Performance",
-      "slug": "optimizing-django-performance",
-      "published": "2024-08-10",
-      "excerpt": "Explore how to improve Django app performance using caching, async tasks, and database tuning.",
-      "tags": ["Django", "Performance", "Backend"],
-      "link": "https://kamaldev.me/blog/optimizing-django-performance"
-    },
-    {
-      "title": "Building Scalable APIs with Flask and Kafka",
-      "slug": "flask-kafka-api",
-      "published": "2024-07-01",
-      "excerpt": "A guide to building event-driven microservices using Flask, Kafka, and Docker.",
-      "tags": ["Flask", "Kafka", "Microservices"],
-      "link": "https://kamaldev.me/blog/flask-kafka-api"
-    },
-    {
-      "title": "From Backend to Full Stack: My Journey",
-      "slug": "backend-to-fullstack",
-      "published": "2024-05-20",
-      "excerpt": "A personal reflection on evolving from a backend engineer to a full-stack developer with React and Django.",
-      "tags": ["Career", "Full Stack", "React", "Django"],
-      "link": "https://kamaldev.me/blog/backend-to-fullstack"
-    }
-  ]
+  "certifications": []
 }
